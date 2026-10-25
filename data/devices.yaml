@@ -274,14 +274,6 @@ categories:
             stars: 89
             pushed: 2026-10-25
             license: MIT
-          - name: Ricoh-GRMod
-            repo: Maxwooow/Ricoh-GRMod
-            summary: Patches the GR IV firmware to import presets into Image Control and add crop ratios and other extras.
-            summary_zh: "修補 GR IV 韌體，把預設集匯入 Image Control，並加入裁切比例等功能。"
-            flags: [warranty]
-            stars: 148
-            pushed: 2026-10-24
-            license: GPL-2.0
           - name: gr3-film-mods
             repo: idontknownihil/gr3-film-mods
             summary: Firmware patches that add custom film looks to the GR III.
@@ -442,16 +434,16 @@ categories:
             license: GPL-3.0
           - name: kindle-dash
             repo: pascalw/kindle-dash
-            summary: "Turns an already jailbroken Kindle into a low-power dashboard screen (tested on Kindle 4 NT)."
-            summary_zh: "把已越獄的 Kindle 變成低耗電的儀表板螢幕（只在 Kindle 4 NT 測試過）。"
+            summary: "Turns an already unlocked Kindle into a low-power dashboard screen (tested on Kindle 4 NT)."
+            summary_zh: "把已解鎖的 Kindle 變成低耗電的儀表板螢幕（只在 Kindle 4 NT 測試過）。"
             flags: [warranty]
             stars: 1390
             pushed: 2024-03-04
             license: MIT
           - name: LanguageBreak
             repo: notmarek/LanguageBreak
-            summary: "Jailbreak for your own Kindle on firmware 5.16.2.1.1 or lower; it deletes all content. See the project page only."
-            summary_zh: "供自有 Kindle 使用的越獄，限韌體 5.16.2.1.1 以下，會刪除所有內容；詳見專案頁面。"
+            summary: "Unlocks your own Kindle (firmware 5.16.2.1.1 or lower) so you can install KOReader and other apps; it deletes all content. Project page only."
+            summary_zh: "解鎖自己的 Kindle（韌體 5.16.2.1.1 以下），以安裝 KOReader 等 app；會刪除所有內容。只連專案頁。"
             flags: [warranty, review]
             stars: 1215
             pushed: 2025-01-30
@@ -623,7 +615,7 @@ categories:
             summary: Updates the bundled Tailscale to a newer release.
             summary_zh: "把內建的 Tailscale 更新到較新的版本。"
             flags: []
-            stars: 785
+            stars: 786
             pushed: 2026-10-21
             license: MIT
           - name: ha-glinet4-integration

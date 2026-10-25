@@ -11,7 +11,8 @@ Add a project if all of these are true:
 - It is on GitHub and had a push in the last 3 years. It is not archived.
 
 Do not add projects for DRM removal, license key or paywall bypass, piracy, game ROMs, account sharing, or carrier unlock bypass.
-Projects that unlock your own device (for example a jailbreak) need the `review` flag. Link the project page only. Do not add steps.
+Projects that unlock your own device need the `review` flag. Link the project page only. Do not add steps, files, or mirrors.
+If GitHub disables a linked repository (for example after a DMCA notice), remove the entry.
 
 ## How to add a project
 

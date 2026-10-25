@@ -118,7 +118,6 @@
 | [GRsync](https://github.com/clyang/GRsync) | 不用官方 App，透過 Wi-Fi 從相機下載照片。 | 104 | 2026-02-11 | MIT |  |
 | [ricoh-gr-bluetooth-api](https://github.com/dm-zharov/ricoh-gr-bluetooth-api) | 記錄相機的藍牙通訊協定，方便自行打造遙控器。 | 63 | 2024-11-14 | Unlicense |  |
 | [grkit](https://github.com/ahonn/grkit) | 透過 Wi-Fi 瀏覽與下載相機照片的工具組。 | 89 | 2026-10-25 | MIT |  |
-| [Ricoh-GRMod](https://github.com/Maxwooow/Ricoh-GRMod) | 修補 GR IV 韌體，把預設集匯入 Image Control，並加入裁切比例等功能。 | 148 | 2026-10-24 | GPL-2.0 | 🛡️ |
 | [gr3-film-mods](https://github.com/idontknownihil/gr3-film-mods) | 韌體修補，為 GR III 加入自訂的底片風格。 | 35 | 2026-10-12 | MIT | 🛡️ |
 
 ### GoPro HERO and MAX
@@ -164,8 +163,8 @@
 |---|---|---:|---|---|---|
 | [KindleEar](https://github.com/cdhigh/KindleEar) | 自架服務，把 RSS 與新聞摘要送到你的 Kindle。 | 2,880 | 2026-10-24 | MIT |  |
 | [FBInk](https://github.com/NiLuJe/FBInk) | 直接在 Kindle 與 Kobo 螢幕上繪製文字與圖像的程式庫與工具。 | 554 | 2026-08-06 | GPL-3.0 |  |
-| [kindle-dash](https://github.com/pascalw/kindle-dash) | 把已越獄的 Kindle 變成低耗電的儀表板螢幕（只在 Kindle 4 NT 測試過）。 | 1,390 | 2024-03-04 | MIT | 🛡️ |
-| [LanguageBreak](https://github.com/notmarek/LanguageBreak) | 供自有 Kindle 使用的越獄，限韌體 5.16.2.1.1 以下，會刪除所有內容；詳見專案頁面。 | 1,215 | 2025-01-30 | 未偵測到 | 🛡️ ⚠️ |
+| [kindle-dash](https://github.com/pascalw/kindle-dash) | 把已解鎖的 Kindle 變成低耗電的儀表板螢幕（只在 Kindle 4 NT 測試過）。 | 1,390 | 2024-03-04 | MIT | 🛡️ |
+| [LanguageBreak](https://github.com/notmarek/LanguageBreak) | 解鎖自己的 Kindle（韌體 5.16.2.1.1 以下），以安裝 KOReader 等 app；會刪除所有內容。只連專案頁。 | 1,215 | 2025-01-30 | 未偵測到 | 🛡️ ⚠️ |
 
 ### reMarkable tablets
 
@@ -232,7 +231,7 @@
 
 | 專案 | 用途 | ★ | 最後更新 | 授權 | 標記 |
 |---|---|---:|---|---|---|
-| [glinet-tailscale-updater](https://github.com/admonstrator/glinet-tailscale-updater) | 把內建的 Tailscale 更新到較新的版本。 | 785 | 2026-10-21 | MIT |  |
+| [glinet-tailscale-updater](https://github.com/admonstrator/glinet-tailscale-updater) | 把內建的 Tailscale 更新到較新的版本。 | 786 | 2026-10-21 | MIT |  |
 | [ha-glinet4-integration](https://github.com/HarvsG/ha-glinet4-integration) | 給執行 GL.iNet 韌體 4 的路由器用的 Home Assistant 整合。 | 100 | 2026-10-24 | Apache-2.0 |  |
 | [MT6000_cust_build](https://github.com/pesa1234/MT6000_cust_build) | 為 GL-MT6000（Flint 2）調校的自訂 OpenWrt 版本。 | 204 | 2026-08-29 | 未偵測到 | 🛡️ |
 
@@ -246,7 +245,7 @@
 
 收錄：對自己的裝置做合法的客製化。例如開源韌體、不經原廠雲端的本機控制、外掛 app、設定檔與配方檔、相容配件。
 
-不收錄：破解 DRM、繞過授權金鑰或付費機制、盜版、遊戲 ROM、帳號共享、繞過電信鎖。解鎖自己裝置的專案（例如電子書閱讀器越獄）只連到專案頁，並加上 ⚠️ 標記。本清單不提供解鎖步驟。
+不收錄：破解 DRM、繞過授權金鑰或付費機制、盜版、遊戲 ROM、帳號共享、繞過電信鎖。解鎖自己裝置的專案（例如電子書閱讀器）只連到專案頁，並加上 ⚠️ 標記。本清單不提供解鎖步驟，也不存放任何程式碼、韌體或檔案。連結的 repo 若被 GitHub 停用（例如收到 DMCA 通知），就會移除該筆。專案作者可以開 issue 要求移除。
 
 超過 3 年沒有更新的專案不收，或標為 📦。星數、最後更新日期與授權來自 GitHub API（`scripts/refresh.py`），最近一次更新在 2026-10-25。
 
@@ -264,7 +263,7 @@
 
 ## 免責聲明
 
-自己的裝置自己負責。改裝可能損壞硬體、失去保固或違反原廠條款。改裝接市電的裝置（⚡）可能致命：先拔插頭；沒有把握就交給合格的人做。請遵守當地法律與保固條款。專案屬於各自的作者，本清單不檢查它們的程式碼。
+自己的裝置自己負責。改裝可能損壞硬體、失去保固或違反原廠條款。在部分國家，解鎖裝置也可能受反規避法規限制。改裝接市電的裝置（⚡）可能致命：先拔插頭；沒有把握就交給合格的人做。請遵守當地法律與保固條款。專案屬於各自的作者，本清單不檢查它們的程式碼。
 
 ## 延伸閱讀
 

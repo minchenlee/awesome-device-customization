@@ -118,7 +118,6 @@ You own a device. Which open-source projects let you do more with it? This list 
 | [GRsync](https://github.com/clyang/GRsync) | Downloads photos from the camera over Wi-Fi without the official app. | 104 | 2026-02-11 | MIT |  |
 | [ricoh-gr-bluetooth-api](https://github.com/dm-zharov/ricoh-gr-bluetooth-api) | Documents the camera's Bluetooth protocol so you can build your own remote. | 63 | 2024-11-14 | Unlicense |  |
 | [grkit](https://github.com/ahonn/grkit) | Toolkit for browsing and downloading photos from the camera over Wi-Fi. | 89 | 2026-10-25 | MIT |  |
-| [Ricoh-GRMod](https://github.com/Maxwooow/Ricoh-GRMod) | Patches the GR IV firmware to import presets into Image Control and add crop ratios and other extras. | 148 | 2026-10-24 | GPL-2.0 | 🛡️ |
 | [gr3-film-mods](https://github.com/idontknownihil/gr3-film-mods) | Firmware patches that add custom film looks to the GR III. | 35 | 2026-10-12 | MIT | 🛡️ |
 
 ### GoPro HERO and MAX
@@ -164,8 +163,8 @@ You own a device. Which open-source projects let you do more with it? This list 
 |---|---|---:|---|---|---|
 | [KindleEar](https://github.com/cdhigh/KindleEar) | Self-hosted service that sends RSS and news digests to your Kindle. | 2,880 | 2026-10-24 | MIT |  |
 | [FBInk](https://github.com/NiLuJe/FBInk) | Library and tool for drawing text and images directly on Kindle and Kobo screens. | 554 | 2026-08-06 | GPL-3.0 |  |
-| [kindle-dash](https://github.com/pascalw/kindle-dash) | Turns an already jailbroken Kindle into a low-power dashboard screen (tested on Kindle 4 NT). | 1,390 | 2024-03-04 | MIT | 🛡️ |
-| [LanguageBreak](https://github.com/notmarek/LanguageBreak) | Jailbreak for your own Kindle on firmware 5.16.2.1.1 or lower; it deletes all content. See the project page only. | 1,215 | 2025-01-30 | Not detected | 🛡️ ⚠️ |
+| [kindle-dash](https://github.com/pascalw/kindle-dash) | Turns an already unlocked Kindle into a low-power dashboard screen (tested on Kindle 4 NT). | 1,390 | 2024-03-04 | MIT | 🛡️ |
+| [LanguageBreak](https://github.com/notmarek/LanguageBreak) | Unlocks your own Kindle (firmware 5.16.2.1.1 or lower) so you can install KOReader and other apps; it deletes all content. Project page only. | 1,215 | 2025-01-30 | Not detected | 🛡️ ⚠️ |
 
 ### reMarkable tablets
 
@@ -232,7 +231,7 @@ You own a device. Which open-source projects let you do more with it? This list 
 
 | Project | What it does | ★ | Last push | License | Markers |
 |---|---|---:|---|---|---|
-| [glinet-tailscale-updater](https://github.com/admonstrator/glinet-tailscale-updater) | Updates the bundled Tailscale to a newer release. | 785 | 2026-10-21 | MIT |  |
+| [glinet-tailscale-updater](https://github.com/admonstrator/glinet-tailscale-updater) | Updates the bundled Tailscale to a newer release. | 786 | 2026-10-21 | MIT |  |
 | [ha-glinet4-integration](https://github.com/HarvsG/ha-glinet4-integration) | Home Assistant integration for routers on GL.iNet firmware 4. | 100 | 2026-10-24 | Apache-2.0 |  |
 | [MT6000_cust_build](https://github.com/pesa1234/MT6000_cust_build) | Custom OpenWrt builds tuned for the GL-MT6000 (Flint 2). | 204 | 2026-08-29 | Not detected | 🛡️ |
 
@@ -246,7 +245,7 @@ You own a device. Which open-source projects let you do more with it? This list 
 
 Included: legal customization of a device you own. Examples are open-source firmware, local control without the vendor cloud, add-on apps, configuration and recipe files, and compatible accessories.
 
-Not included: DRM removal, license key or paywall bypass, piracy, game ROMs, account sharing, and carrier unlock bypass. Projects that unlock your own device (for example e-reader jailbreaks) are linked to their project page only, with the ⚠️ marker. This list gives no unlock steps.
+Not included: DRM removal, license key or paywall bypass, piracy, game ROMs, account sharing, and carrier unlock bypass. Projects that unlock your own device (for example an e-reader) are linked to their project page only, with the ⚠️ marker. This list gives no unlock steps and hosts no code, firmware, or files. If GitHub disables a linked repository, for example after a DMCA notice, the entry is removed. Project owners can ask for removal in an issue.
 
 Projects with no push for more than 3 years are left out or marked 📦. Stars, last push dates, and licenses come from the GitHub API (`scripts/refresh.py`); the last refresh was on 2026-10-25.
 
@@ -264,7 +263,7 @@ Each project shows the markers that apply to it.
 
 ## Disclaimer
 
-You are responsible for your own device. Modifications can damage hardware, void the warranty, or break vendor terms. Work on mains-powered devices (⚡) can kill you: unplug the device and let a qualified person do the work if you are not sure. Obey local law and your warranty terms. The projects belong to their authors; this list does not check their code.
+You are responsible for your own device. Modifications can damage hardware, void the warranty, or break vendor terms. In some countries, anti-circumvention law can also restrict unlocking a device. Work on mains-powered devices (⚡) can kill you: unplug the device and let a qualified person do the work if you are not sure. Obey local law and your warranty terms. The projects belong to their authors; this list does not check their code.
 
 ## Further reading
 

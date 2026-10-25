@@ -25,8 +25,10 @@ TEXT = {
             "local control without the vendor cloud, add-on apps, configuration and recipe files, "
             "and compatible accessories.\n\n"
             "Not included: DRM removal, license key or paywall bypass, piracy, game ROMs, account sharing, "
-            "and carrier unlock bypass. Projects that unlock your own device (for example e-reader jailbreaks) "
-            "are linked to their project page only, with the ⚠️ marker. This list gives no unlock steps.\n\n"
+            "and carrier unlock bypass. Projects that unlock your own device (for example an e-reader) "
+            "are linked to their project page only, with the ⚠️ marker. This list gives no unlock steps "
+            "and hosts no code, firmware, or files. If GitHub disables a linked repository, "
+            "for example after a DMCA notice, the entry is removed. Project owners can ask for removal in an issue.\n\n"
             "Projects with no push for more than 3 years are left out or marked 📦. "
             "Stars, last push dates, and licenses come from the GitHub API "
             "(`scripts/refresh.py`); the last refresh was on {date}."
@@ -34,7 +36,8 @@ TEXT = {
         "disclaimer_head": "## Disclaimer",
         "disclaimer": (
             "You are responsible for your own device. Modifications can damage hardware, void the warranty, "
-            "or break vendor terms. Work on mains-powered devices (⚡) can kill you: unplug the device and "
+            "or break vendor terms. In some countries, anti-circumvention law can also restrict unlocking a device. "
+            "Work on mains-powered devices (⚡) can kill you: unplug the device and "
             "let a qualified person do the work if you are not sure. Obey local law and your warranty terms. "
             "The projects belong to their authors; this list does not check their code."
         ),
@@ -69,13 +72,16 @@ TEXT = {
             "收錄：對自己的裝置做合法的客製化。例如開源韌體、不經原廠雲端的本機控制、外掛 app、"
             "設定檔與配方檔、相容配件。\n\n"
             "不收錄：破解 DRM、繞過授權金鑰或付費機制、盜版、遊戲 ROM、帳號共享、繞過電信鎖。"
-            "解鎖自己裝置的專案（例如電子書閱讀器越獄）只連到專案頁，並加上 ⚠️ 標記。本清單不提供解鎖步驟。\n\n"
+            "解鎖自己裝置的專案（例如電子書閱讀器）只連到專案頁，並加上 ⚠️ 標記。本清單不提供解鎖步驟，"
+            "也不存放任何程式碼、韌體或檔案。連結的 repo 若被 GitHub 停用（例如收到 DMCA 通知），就會移除該筆。"
+            "專案作者可以開 issue 要求移除。\n\n"
             "超過 3 年沒有更新的專案不收，或標為 📦。星數、最後更新日期與授權來自 GitHub API"
             "（`scripts/refresh.py`），最近一次更新在 {date}。"
         ),
         "disclaimer_head": "## 免責聲明",
         "disclaimer": (
             "自己的裝置自己負責。改裝可能損壞硬體、失去保固或違反原廠條款。"
+            "在部分國家，解鎖裝置也可能受反規避法規限制。"
             "改裝接市電的裝置（⚡）可能致命：先拔插頭；沒有把握就交給合格的人做。"
             "請遵守當地法律與保固條款。專案屬於各自的作者，本清單不檢查它們的程式碼。"
         ),
