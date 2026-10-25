@@ -1,0 +1,654 @@
+# Generated layout; edit values by hand or with scripts/refresh.py.
+categories:
+  - id: ikea
+    title: IKEA smart home
+    title_zh: IKEA 智慧家居
+    devices:
+      - model: IKEA OBEGRÄNSAD LED wall lamp
+        projects:
+          - name: ikea-led-obegraensad
+            repo: ph1p/ikea-led-obegraensad
+            summary: "Replaces the lamp's controller with an ESP32 for custom animations, a web UI, and clock and weather screens."
+            summary_zh: "把燈的控制器換成 ESP32，可自訂動畫、網頁介面，以及時鐘與天氣畫面。"
+            flags: [opens, warranty]
+            stars: 883
+            pushed: 2026-10-19
+            license: MIT
+          - name: IKEA-Obegransad-Tetris
+            repo: grandpasquarepants/IKEA-Obegransad-Tetris
+            summary: Turns the modded 16x16 LED panel into a playable Tetris game.
+            summary_zh: "把改裝過的 16x16 LED 面板變成可玩的俄羅斯方塊遊戲。"
+            flags: [opens, warranty]
+            stars: 46
+            pushed: 2026-03-08
+            license: NOASSERTION
+          - name: Home Assistant Obegransad
+            repo: PiotrMachowski/Home-Assistant-custom-components-Obegransad
+            summary: Controls an OBEGRÄNSAD running the ESP32 firmware from Home Assistant.
+            summary_zh: "從 Home Assistant 控制執行 ESP32 韌體的 OBEGRÄNSAD。"
+            flags: []
+            stars: 23
+            pushed: 2026-03-05
+            license: MIT
+      - model: IKEA FREKVENS LED cube
+        projects:
+          - name: Frekvens
+            repo: VIPnytt/Frekvens
+            summary: "ESP32 firmware for FREKVENS and OBEGRÄNSAD panels with effects, MQTT, and Home Assistant support."
+            summary_zh: "給 FREKVENS 與 OBEGRÄNSAD 面板用的 ESP32 韌體，支援燈效、MQTT 與 Home Assistant。"
+            flags: [mains, opens, warranty]
+            stars: 39
+            pushed: 2026-10-24
+            license: MIT
+      - model: IKEA VINDRIKTNING air quality sensor
+        projects:
+          - name: ESPHome-IKEA-VINDRIKTNING
+            repo: DzurisHome/ESPHome-IKEA-VINDRIKTNING
+            summary: Adds an ESP module inside the sensor so PM2.5 readings reach Home Assistant through ESPHome.
+            summary_zh: "在感測器內加裝 ESP 模組，讓 PM2.5 讀值透過 ESPHome 送到 Home Assistant。"
+            flags: [opens, warranty]
+            stars: 96
+            pushed: 2026-05-12
+            license: MIT
+          - name: ESP-Vindriktning
+            repo: LaskaKit/ESP-Vindriktning
+            summary: "A drop-in ESP32 board that adds Wi-Fi, Bluetooth, and RGB LEDs, with optional CO2, temperature, and humidity modules."
+            summary_zh: "可直接替換的 ESP32 板子，加上 Wi-Fi、藍牙與 RGB LED，並可選配 CO2、溫度與濕度模組。"
+            flags: [opens, warranty]
+            stars: 93
+            pushed: 2025-10-07
+            license: NOASSERTION
+          - name: VINDRIKTNING Zigbee
+            repo: smartboxchannel/IKEA-VINDRIKTNING_ZIGBEE_I_II_III
+            summary: Zigbee boards that make the sensor report to a Zigbee hub instead of Wi-Fi.
+            summary_zh: "Zigbee 板子，讓感測器改為回報給 Zigbee 中樞，而不是走 Wi-Fi。"
+            flags: [opens, warranty]
+            stars: 73
+            pushed: 2025-03-29
+            license: NOASSERTION
+      - model: IKEA UPPÅTVIND air purifier
+        projects:
+          - name: esphome-ikea-uppatvind
+            repo: jonathonlui/esphome-ikea-uppatvind
+            summary: Wires an ESP8266 or ESP32 into the purifier so ESPHome can set fan speed and read its state.
+            summary_zh: "把 ESP8266 或 ESP32 接進清淨機，讓 ESPHome 能設定風速並讀取狀態。"
+            flags: [opens, warranty]
+            stars: 166
+            pushed: 2024-01-14
+            license: NOASSERTION
+          - name: esp8266-for-uppatvind
+            repo: horvathgergo/esp8266-for-uppatvind
+            summary: A small replacement board that adds Wi-Fi control and an air quality sensor to the purifier.
+            summary_zh: "小型替換板，為清淨機加上 Wi-Fi 控制與空氣品質感測器。"
+            flags: [opens, warranty]
+            stars: 60
+            pushed: 2026-02-20
+            license: GPL-3.0
+      - model: IKEA FYRTUR / KADRILJ blinds
+        projects:
+          - name: fyrtur-esp
+            repo: mjuhanne/fyrtur-esp
+            summary: "Replaces the blind motor's Zigbee module with an ESP32 for MQTT and Home Assistant control."
+            summary_zh: "把窗簾馬達的 Zigbee 模組換成 ESP32，以便用 MQTT 和 Home Assistant 控制。"
+            flags: [opens, warranty]
+            stars: 85
+            pushed: 2024-08-01
+            license: MIT
+      - model: IKEA IDÅSEN standing desk
+        projects:
+          - name: idasen-control
+            repo: mitsuhiko/idasen-control
+            summary: Command-line tool that moves the desk to saved heights over Bluetooth.
+            summary_zh: "透過藍牙把書桌移動到已儲存高度的命令列工具。"
+            flags: []
+            stars: 440
+            pushed: 2026-02-19
+            license: MIT
+          - name: idasen
+            repo: newAM/idasen
+            summary: Python library and CLI for reading and setting desk height over Bluetooth.
+            summary_zh: "透過藍牙讀取與設定桌面高度的 Python 程式庫與 CLI。"
+            flags: []
+            stars: 157
+            pushed: 2026-10-23
+            license: MIT
+          - name: trayasen
+            repo: golota60/trayasen
+            summary: Desktop tray app for switching between saved desk positions.
+            summary_zh: "桌面常駐程式，用來切換已儲存的桌面位置。"
+            flags: []
+            stars: 30
+            pushed: 2026-08-01
+            license: MIT
+      - model: "IKEA TRÅDFRI gateway, bulbs, and remotes"
+        projects:
+          - name: pytradfri
+            repo: home-assistant-libs/pytradfri
+            summary: Python library for local control of lights and blinds through the TRÅDFRI gateway.
+            summary_zh: "透過 TRÅDFRI 閘道器在本機控制燈具與窗簾的 Python 程式庫。"
+            flags: []
+            stars: 960
+            pushed: 2026-10-23
+            license: MIT
+          - name: node-tradfri-client
+            repo: AlCalzone/node-tradfri-client
+            summary: Node.js library for local control of devices paired to the TRÅDFRI gateway.
+            summary_zh: "以 Node.js 程式庫在本機控制配對到 TRÅDFRI 閘道器的裝置。"
+            flags: []
+            stars: 267
+            pushed: 2024-08-29
+            license: MIT
+          - name: TRADFRI-Hacking
+            repo: basilfx/TRADFRI-Hacking
+            summary: Research notes and tools for flashing your own firmware onto TRÅDFRI hardware.
+            summary_zh: "在 TRÅDFRI 硬體上刷入自製韌體的研究筆記與工具。"
+            flags: [opens, warranty]
+            stars: 741
+            pushed: 2024-11-28
+            license: CC-BY-4.0
+      - model: IKEA DIRIGERA hub
+        projects:
+          - name: dirigera
+            repo: Leggin/dirigera
+            summary: "Python library for local control of lights, outlets, blinds, and sensors on the hub."
+            summary_zh: "在本機控制中樞上燈具、插座、窗簾與感測器的 Python 程式庫。"
+            flags: []
+            stars: 221
+            pushed: 2026-10-23
+            license: MIT
+          - name: dirigera_platform
+            repo: sanjoyg/dirigera_platform
+            summary: Home Assistant integration that talks to the hub on the local network.
+            summary_zh: "在區域網路內與中樞通訊的 Home Assistant 整合。"
+            flags: []
+            stars: 226
+            pushed: 2026-02-18
+            license: MIT
+          - name: "dirigera (TypeScript)"
+            repo: lpgera/dirigera
+            summary: "TypeScript client for the hub's local API."
+            summary_zh: "中樞本機 API 的 TypeScript 用戶端。"
+            flags: []
+            stars: 94
+            pushed: 2026-09-13
+            license: MIT
+          - name: DirigeraClient
+            repo: dvdgeisler/DirigeraClient
+            summary: "Java client and MQTT bridge for the hub's local API."
+            summary_zh: "中樞本機 API 的 Java 用戶端與 MQTT 橋接。"
+            flags: []
+            stars: 94
+            pushed: 2023-12-27
+            license: MIT
+      - model: IKEA SYMFONISK speakers
+        projects:
+          - name: opensymf
+            repo: papadopouloskyriakos/opensymf
+            summary: Guide and scripts for rebuilding the speakers around a Raspberry Pi audio player.
+            summary_zh: "以 Raspberry Pi 播放器重建喇叭的指南與腳本。"
+            flags: [mains, opens, warranty]
+            stars: 34
+            pushed: 2026-02-18
+            license: MIT
+  - id: camera
+    title: Cameras
+    title_zh: "相機"
+    devices:
+      - model: "Canon EOS cameras (and some PowerShot)"
+        projects:
+          - name: Magic Lantern
+            repo: reticulatedpines/magiclantern_simplified
+            summary: "Add-on software that runs from the memory card and adds tools such as zebras, focus peaking, and intervalometers."
+            summary_zh: "從記憶卡執行的附加軟體，加入斑馬紋、對焦峰值與縮時攝影等工具。"
+            flags: [warranty]
+            stars: 559
+            pushed: 2026-10-04
+            license: GPL-2.0
+      - model: "Sony Alpha and Cyber-shot (PlayMemories app era)"
+        projects:
+          - name: Sony-PMCA-RE
+            repo: ma1co/Sony-PMCA-RE
+            summary: Installs your own Android apps on cameras that supported PlayMemories Camera Apps.
+            summary_zh: "在支援 PlayMemories Camera Apps 的相機上安裝自己的 Android 應用程式。"
+            flags: [warranty]
+            stars: 2975
+            pushed: 2024-07-27
+            license: MIT
+          - name: OpenMemories-Tweak
+            repo: ma1co/OpenMemories-Tweak
+            summary: Camera app that changes hidden settings such as the video recording time limit and the language list.
+            summary_zh: "相機應用程式，可更改錄影時間上限、語言清單等隱藏設定。"
+            flags: [warranty, review]
+            stars: 1426
+            pushed: 2024-01-21
+            license: MIT
+          - name: sony-pmca-ricoh-mod
+            repo: bonyback1/sony-pmca-ricoh-mod
+            summary: Adds RICOH GR style color profiles to the Picture Effect app on supported Sony cameras.
+            summary_zh: "在支援的 Sony 相機上，為 Picture Effect 應用程式加入 RICOH GR 風格色彩設定。"
+            flags: [warranty]
+            stars: 47
+            pushed: 2026-10-17
+            license: Apache-2.0
+      - model: Fujifilm X and GFX
+        projects:
+          - name: fudge
+            repo: petabyt/fudge
+            summary: Open-source app that connects to Fujifilm cameras over Wi-Fi and USB to import photos and change settings.
+            summary_zh: "開源應用程式，透過 Wi-Fi 與 USB 連線 Fujifilm 相機，匯入照片並更改設定。"
+            flags: []
+            stars: 31
+            pushed: 2026-10-23
+            license: NOASSERTION
+          - name: Filmcase
+            repo: gosku/Filmcase
+            summary: Self-hosted app for saving film simulation recipes and browsing the JPEGs made with each one.
+            summary_zh: "自架應用程式，用來保存底片模擬配方，並瀏覽各配方拍出的 JPEG。"
+            flags: []
+            stars: 74
+            pushed: 2026-10-11
+            license: NOASSERTION
+      - model: "RICOH GR II, GR III, and GR IV"
+        projects:
+          - name: GRsync
+            repo: clyang/GRsync
+            summary: Downloads photos from the camera over Wi-Fi without the official app.
+            summary_zh: "不用官方 App，透過 Wi-Fi 從相機下載照片。"
+            flags: []
+            stars: 104
+            pushed: 2026-02-11
+            license: MIT
+          - name: ricoh-gr-bluetooth-api
+            repo: dm-zharov/ricoh-gr-bluetooth-api
+            summary: "Documents the camera's Bluetooth protocol so you can build your own remote."
+            summary_zh: "記錄相機的藍牙通訊協定，方便自行打造遙控器。"
+            flags: []
+            stars: 63
+            pushed: 2024-11-14
+            license: Unlicense
+          - name: grkit
+            repo: ahonn/grkit
+            summary: Toolkit for browsing and downloading photos from the camera over Wi-Fi.
+            summary_zh: "透過 Wi-Fi 瀏覽與下載相機照片的工具組。"
+            flags: []
+            stars: 89
+            pushed: 2026-10-25
+            license: MIT
+          - name: Ricoh-GRMod
+            repo: Maxwooow/Ricoh-GRMod
+            summary: Patches the GR IV firmware to import presets into Image Control and add crop ratios and other extras.
+            summary_zh: "修補 GR IV 韌體，把預設集匯入 Image Control，並加入裁切比例等功能。"
+            flags: [warranty]
+            stars: 148
+            pushed: 2026-10-24
+            license: GPL-2.0
+          - name: gr3-film-mods
+            repo: idontknownihil/gr3-film-mods
+            summary: Firmware patches that add custom film looks to the GR III.
+            summary_zh: "韌體修補，為 GR III 加入自訂的底片風格。"
+            flags: [warranty]
+            stars: 35
+            pushed: 2026-10-12
+            license: MIT
+      - model: GoPro HERO and MAX
+        projects:
+          - name: OpenGoPro
+            repo: gopro/OpenGoPro
+            summary: "GoPro's official open API and examples for controlling cameras over Bluetooth, Wi-Fi, and USB."
+            summary_zh: "GoPro 官方的開放 API 與範例，可透過藍牙、Wi-Fi 與 USB 控制相機。"
+            flags: []
+            stars: 992
+            pushed: 2026-06-08
+            license: NOASSERTION
+          - name: GoPro Labs
+            repo: gopro/labs
+            summary: "GoPro's experimental firmware that adds QR-code commands and extra capture modes."
+            summary_zh: "GoPro 的實驗性韌體，加入 QR 碼指令與額外拍攝模式。"
+            flags: []
+            stars: 733
+            pushed: 2026-10-14
+            license: Apache-2.0
+          - name: gopro_as_webcam_on_linux
+            repo: jschmid1/gopro_as_webcam_on_linux
+            summary: Uses a GoPro as a webcam on Linux.
+            summary_zh: "在 Linux 上把 GoPro 當成網路攝影機使用。"
+            flags: []
+            stars: 707
+            pushed: 2026-03-04
+            license: Apache-2.0
+      - model: "Most USB cameras (PTP tethering)"
+        projects:
+          - name: libgphoto2
+            repo: gphoto/libgphoto2
+            summary: Library that controls thousands of camera models over USB for tethered shooting and file transfer.
+            summary_zh: "透過 USB 控制數千種相機機型的程式庫，可連線拍攝與傳輸檔案。"
+            flags: []
+            stars: 1396
+            pushed: 2026-10-24
+            license: LGPL-2.1
+          - name: gphoto2
+            repo: gphoto/gphoto2
+            summary: "Command-line tool for tethered capture, live view, and downloads from supported cameras."
+            summary_zh: "對支援的相機進行連線拍攝、即時預覽與下載的命令列工具。"
+            flags: []
+            stars: 906
+            pushed: 2026-06-22
+            license: GPL-2.0
+          - name: python-gphoto2
+            repo: jim-easterbrook/python-gphoto2
+            summary: Python bindings for scripting libgphoto2 camera control.
+            summary_zh: "用 Python 腳本控制 libgphoto2 的繫結。"
+            flags: []
+            stars: 429
+            pushed: 2026-09-05
+            license: LGPL-3.0
+  - id: ereader
+    title: E-readers
+    title_zh: "電子書閱讀器"
+    devices:
+      - model: "Kindle, Kobo, PocketBook, and other e-readers (KOReader)"
+        projects:
+          - name: KOReader
+            repo: koreader/koreader
+            summary: "Alternative reading app with strong PDF and EPUB support, plugins, and sync."
+            summary_zh: "替代閱讀應用程式，PDF 與 EPUB 支援強，有外掛與同步功能。"
+            flags: []
+            stars: 30590
+            pushed: 2026-10-25
+            license: AGPL-3.0
+          - name: koreader-sync-server
+            repo: koreader/koreader-sync-server
+            summary: Self-hosted server that syncs reading progress between KOReader devices.
+            summary_zh: "自架伺服器，在 KOReader 裝置之間同步閱讀進度。"
+            flags: []
+            stars: 794
+            pushed: 2026-09-23
+            license: AGPL-3.0
+          - name: "Project: Title"
+            repo: joshuacant/ProjectTitle
+            summary: KOReader plugin that replaces the file browser with a cover-based library view.
+            summary_zh: "KOReader 外掛，把檔案瀏覽器換成以封面為主的書庫檢視。"
+            flags: []
+            stars: 1138
+            pushed: 2026-08-31
+            license: AGPL-3.0
+      - model: Kobo e-readers
+        projects:
+          - name: Plato
+            repo: baskerville/plato
+            summary: Alternative document reader built for Kobo devices.
+            summary_zh: "為 Kobo 裝置打造的另一套文件閱讀器。"
+            flags: []
+            stars: 1725
+            pushed: 2026-03-30
+            license: NOASSERTION
+          - name: NickelMenu
+            repo: pgaskin/NickelMenu
+            summary: Adds custom menu items to the stock Kobo software to launch scripts and change settings.
+            summary_zh: "在 Kobo 原廠軟體加入自訂選單項目，用來執行腳本與更改設定。"
+            flags: []
+            stars: 1226
+            pushed: 2026-06-12
+            license: MIT
+          - name: kobopatch
+            repo: pgaskin/kobopatch
+            summary: Applies community patches to the stock Kobo firmware to change its behavior.
+            summary_zh: "對 Kobo 原廠韌體套用社群修補，改變其行為。"
+            flags: [warranty]
+            stars: 134
+            pushed: 2026-03-17
+            license: MIT
+          - name: kepubify
+            repo: pgaskin/kepubify
+            summary: "Converts EPUB files to Kobo's KEPUB format for better reading features."
+            summary_zh: "把 EPUB 檔案轉成 Kobo 的 KEPUB 格式，以獲得更好的閱讀功能。"
+            flags: []
+            stars: 898
+            pushed: 2025-12-06
+            license: MIT
+          - name: KoboCloud
+            repo: fsantini/KoboCloud
+            summary: "Syncs books from Dropbox, Google Drive, and other cloud folders to the device."
+            summary_zh: "把 Dropbox、Google Drive 等雲端資料夾的書同步到裝置。"
+            flags: []
+            stars: 1313
+            pushed: 2026-09-24
+            license: NOASSERTION
+          - name: Quill OS
+            repo: Quill-OS/quill
+            summary: "Alternative operating system for Kobo e-readers, installed on the internal SD card; no longer actively maintained."
+            summary_zh: "Kobo 電子書閱讀器的另一套作業系統，裝在內部 SD 卡上；已不再積極維護。"
+            flags: [opens, warranty]
+            stars: 799
+            pushed: 2026-08-14
+            license: NOASSERTION
+      - model: Kindle e-readers
+        projects:
+          - name: KindleEar
+            repo: cdhigh/KindleEar
+            summary: Self-hosted service that sends RSS and news digests to your Kindle.
+            summary_zh: "自架服務，把 RSS 與新聞摘要送到你的 Kindle。"
+            flags: []
+            stars: 2880
+            pushed: 2026-10-24
+            license: MIT
+          - name: FBInk
+            repo: NiLuJe/FBInk
+            summary: Library and tool for drawing text and images directly on Kindle and Kobo screens.
+            summary_zh: "直接在 Kindle 與 Kobo 螢幕上繪製文字與圖像的程式庫與工具。"
+            flags: []
+            stars: 554
+            pushed: 2026-08-06
+            license: GPL-3.0
+          - name: kindle-dash
+            repo: pascalw/kindle-dash
+            summary: "Turns an already jailbroken Kindle into a low-power dashboard screen (tested on Kindle 4 NT)."
+            summary_zh: "把已越獄的 Kindle 變成低耗電的儀表板螢幕（只在 Kindle 4 NT 測試過）。"
+            flags: [warranty]
+            stars: 1390
+            pushed: 2024-03-04
+            license: MIT
+          - name: LanguageBreak
+            repo: notmarek/LanguageBreak
+            summary: "Jailbreak for your own Kindle on firmware 5.16.2.1.1 or lower; it deletes all content. See the project page only."
+            summary_zh: "供自有 Kindle 使用的越獄，限韌體 5.16.2.1.1 以下，會刪除所有內容；詳見專案頁面。"
+            flags: [warranty, review]
+            stars: 1215
+            pushed: 2025-01-30
+            license: NOASSERTION
+      - model: reMarkable tablets
+        projects:
+          - name: reStream
+            repo: rien/reStream
+            summary: Streams the tablet screen to a computer for presentations.
+            summary_zh: "把平板螢幕串流到電腦，方便簡報。"
+            flags: []
+            stars: 872
+            pushed: 2026-06-10
+            license: MIT
+          - name: rmview
+            repo: bordaigorl/rmview
+            summary: Desktop viewer for live screen sharing from the tablet.
+            summary_zh: "桌面檢視器，可即時接收平板的螢幕分享。"
+            flags: []
+            stars: 826
+            pushed: 2025-10-08
+            license: GPL-3.0
+      - model: PocketBook e-readers
+        projects:
+          - name: Pocketbook-Nextcloud-Client
+            repo: JuanJakobo/Pocketbook-Nextcloud-Client
+            summary: Native app that downloads books from your Nextcloud.
+            summary_zh: "從你的 Nextcloud 下載書籍的原生應用程式。"
+            flags: []
+            stars: 157
+            pushed: 2025-08-25
+            license: GPL-3.0
+          - name: PocketPuzzles
+            repo: SteffenBauer/PocketPuzzles
+            summary: "Port of Simon Tatham's puzzle collection for PocketBook screens."
+            summary_zh: "把 Simon Tatham 的益智遊戲集移植到 PocketBook 螢幕。"
+            flags: []
+            stars: 104
+            pushed: 2026-05-23
+            license: NOASSERTION
+          - name: Syncthing-for-PocketBook
+            repo: mikedigriz/Syncthing-for-PocketBook
+            summary: Runs Syncthing on the device to sync book folders.
+            summary_zh: "在裝置上執行 Syncthing，同步書籍資料夾。"
+            flags: []
+            stars: 58
+            pushed: 2026-10-01
+            license: Apache-2.0
+  - id: tv
+    title: Android TV and Google TV
+    title_zh: Android TV 與 Google TV
+    devices:
+      - model: Android TV and Google TV devices
+        projects:
+          - name: AerialViews
+            repo: theothernt/AerialViews
+            summary: Screensaver with Apple TV style aerial videos and your own media.
+            summary_zh: "螢幕保護程式，播放 Apple TV 風格的空拍影片與自己的媒體。"
+            flags: []
+            stars: 1119
+            pushed: 2026-10-23
+            license: NOASSERTION
+          - name: Jellyfin for Android TV
+            repo: jellyfin/jellyfin-androidtv
+            summary: TV client for your own Jellyfin media server.
+            summary_zh: "連線到自己 Jellyfin 媒體伺服器的電視用戶端。"
+            flags: []
+            stars: 4653
+            pushed: 2026-10-24
+            license: GPL-2.0
+          - name: LtvLauncher
+            repo: leanbitlab-org/LtvLauncher
+            summary: Open-source home screen launcher without ads.
+            summary_zh: "沒有廣告的開源主畫面啟動器。"
+            flags: []
+            stars: 416
+            pushed: 2026-10-25
+            license: GPL-3.0
+          - name: python-androidtv
+            repo: JeffLIrion/python-androidtv
+            summary: Python library for controlling Android TV and Fire TV devices over ADB.
+            summary_zh: "透過 ADB 控制 Android TV 與 Fire TV 裝置的 Python 程式庫。"
+            flags: []
+            stars: 196
+            pushed: 2024-11-10
+            license: MIT
+      - model: Chromecast with Google TV
+        projects:
+          - name: adb-auto-enable
+            repo: mouldybread/adb-auto-enable
+            summary: "Turns on wireless ADB at boot so home automation can reach the device; this opens full device access on your network."
+            summary_zh: "開機時自動開啟無線 ADB，讓家庭自動化能連上裝置；這會在區域網路上開放完整的裝置權限。"
+            flags: []
+            stars: 301
+            pushed: 2026-10-18
+            license: MIT
+      - model: Amazon Fire TV
+        projects:
+          - name: HA-Firemote
+            repo: PRProd/HA-Firemote
+            summary: "Home Assistant remote card for Fire TV, Chromecast, NVIDIA Shield, and other streamers."
+            summary_zh: "Home Assistant 遙控卡片，支援 Fire TV、Chromecast、NVIDIA Shield 等串流裝置。"
+            flags: []
+            stars: 1091
+            pushed: 2026-03-08
+            license: GPL-3.0
+      - model: NVIDIA Shield TV
+        projects:
+          - name: shield-commander
+            repo: siewers/shield-commander
+            summary: Desktop app for controlling a Shield TV over the local network.
+            summary_zh: "透過區域網路控制 Shield TV 的桌面應用程式。"
+            flags: []
+            stars: 46
+            pushed: 2026-10-24
+            license: MIT
+  - id: router
+    title: Routers
+    title_zh: "路由器"
+    devices:
+      - model: Routers supported by OpenWrt
+        projects:
+          - name: OpenWrt
+            repo: openwrt/openwrt
+            summary: Open-source Linux firmware that replaces the stock router software.
+            summary_zh: "開源 Linux 韌體，可取代路由器原廠軟體。"
+            flags: [warranty]
+            stars: 28923
+            pushed: 2026-10-25
+            license: NOASSERTION
+      - model: ASUS routers
+        projects:
+          - name: Asuswrt-Merlin
+            repo: RMerl/asuswrt-merlin.ng
+            summary: Third-party firmware based on the stock ASUS firmware with extra features and fixes.
+            summary_zh: "以 ASUS 原廠韌體為基礎的第三方韌體，加入額外功能與修正。"
+            flags: [warranty]
+            stars: 6254
+            pushed: 2026-10-25
+            license: NOASSERTION
+          - name: "Asuswrt-Merlin (gnuton)"
+            repo: gnuton/asuswrt-merlin.ng
+            summary: Ports Asuswrt-Merlin to ASUS models that the main project does not support.
+            summary_zh: "把 Asuswrt-Merlin 移植到主要專案未支援的 ASUS 機型。"
+            flags: [warranty]
+            stars: 2379
+            pushed: 2026-09-17
+            license: NOASSERTION
+          - name: amtm
+            repo: decoderman/amtm
+            summary: Terminal menu for installing and managing Asuswrt-Merlin add-ons.
+            summary_zh: "用來安裝與管理 Asuswrt-Merlin 附加套件的終端機選單。"
+            flags: []
+            stars: 237
+            pushed: 2026-10-11
+            license: GPL-3.0
+          - name: IPSet_ASUS
+            repo: Adamm00/IPSet_ASUS
+            summary: Firewall add-on that blocks known malicious IP addresses.
+            summary_zh: "防火牆附加元件，可封鎖已知的惡意 IP 位址。"
+            flags: []
+            stars: 439
+            pushed: 2026-10-22
+            license: NOASSERTION
+      - model: GL.iNet routers
+        projects:
+          - name: glinet-tailscale-updater
+            repo: admonstrator/glinet-tailscale-updater
+            summary: Updates the bundled Tailscale to a newer release.
+            summary_zh: "把內建的 Tailscale 更新到較新的版本。"
+            flags: []
+            stars: 785
+            pushed: 2026-10-21
+            license: MIT
+          - name: ha-glinet4-integration
+            repo: HarvsG/ha-glinet4-integration
+            summary: Home Assistant integration for routers on GL.iNet firmware 4.
+            summary_zh: "給執行 GL.iNet 韌體 4 的路由器用的 Home Assistant 整合。"
+            flags: []
+            stars: 100
+            pushed: 2026-10-24
+            license: Apache-2.0
+          - name: MT6000_cust_build
+            repo: pesa1234/MT6000_cust_build
+            summary: "Custom OpenWrt builds tuned for the GL-MT6000 (Flint 2)."
+            summary_zh: "為 GL-MT6000（Flint 2）調校的自訂 OpenWrt 版本。"
+            flags: [warranty]
+            stars: 204
+            pushed: 2026-08-29
+            license: NOASSERTION
+      - model: "Broadcom-based routers (Netgear, Linksys, ASUS)"
+        projects:
+          - name: FreshTomato
+            repo: FreshTomato-Project/freshtomato-arm
+            summary: Tomato-based open-source firmware for ARM Broadcom routers.
+            summary_zh: "以 Tomato 為基礎、給 ARM Broadcom 路由器用的開源韌體。"
+            flags: [warranty]
+            stars: 197
+            pushed: 2026-10-22
+            license: GPL-3.0
